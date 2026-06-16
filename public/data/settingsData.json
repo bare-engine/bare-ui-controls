@@ -1,6 +1,9 @@
 {
-  "baseEntities": {
-    
+  "baseEntities": {},
+  "entities": {
   },
-  "entities": {}
+  "settings": {
+    "gridEnabled": true,
+    "gridSize": 16
+  }
 }

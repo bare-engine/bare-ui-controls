@@ -7,10 +7,15 @@
       }
 	}
   },
-  "entities": {},
+  "entities": {
+    "text": {
+      "texture": "NONE",
+      "baseClass": "TextObject",
+      "text": ""
+    }
+  },
   "settings": {
     "gridEnabled": true,
     "gridSize": 16
-  },
-  "UI": true
+  }
 }

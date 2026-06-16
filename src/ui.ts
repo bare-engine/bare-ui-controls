@@ -22,8 +22,12 @@ export class UI extends Scene
         var objs = bare.object.GetAll();
         for (let obj of objs)
         {
+            let name = obj.name;
+
+            if (name == 'text')
+                continue;
+
             bare.hitbox.OnPointerEnter(obj, () => {
-                var name = obj.name;
                 if (name == 'arrow')
                 {
                     var rotation = obj.rotation;

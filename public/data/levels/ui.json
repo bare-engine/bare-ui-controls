@@ -51,6 +51,14 @@
           "x": 208,
           "y": 144
         }
+      },
+      {
+        "name": "text",
+        "position": {
+          "x": 128,
+          "y": 32
+        },
+        "text": "Find Waldo"
       }
     ]
   }

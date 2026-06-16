@@ -1,4 +1,4 @@
-import { CanvasPosition, CanvasScale, Scene, StartBare, TextureFilterMode } from 'bare-engine';
+import { CanvasPosition, CanvasScale, Scene, StartBare, TextObject, TextureFilterMode } from 'bare-engine';
 //import { ArcadeObject, ArcadePhysicsController } from 'bare-engine/arcade';
 import settingsDataJson from '../public/data/settingsData.json';
 import { UI } from './ui';
@@ -12,6 +12,7 @@ export class Game extends Scene
 
     async OnAwake()
     {
+        bare.AddClass(TextObject)
         await bare.scene.Add(UI);
     }
 
