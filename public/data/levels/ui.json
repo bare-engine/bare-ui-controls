@@ -1,0 +1,57 @@
+{
+  "name": "ui",
+  "settingsData": "settingsDataUI",
+  "dimensions": {
+    "width": 240,
+    "height": 160
+  },
+  "entitiesByLayer": {
+    "objects": [
+      {
+        "name": "arrow",
+        "position": {
+          "x": 128,
+          "y": 80
+        }
+      },
+      {
+        "name": "arrow",
+        "position": {
+          "x": 80,
+          "y": 32
+        },
+        "rotation": -90
+      },
+      {
+        "name": "arrow",
+        "position": {
+          "x": 32,
+          "y": 80
+        },
+        "rotation": 180
+      },
+      {
+        "name": "arrow",
+        "position": {
+          "x": 80,
+          "y": 128
+        },
+        "rotation": 90
+      },
+      {
+        "name": "plus",
+        "position": {
+          "x": 208,
+          "y": 128
+        }
+      },
+      {
+        "name": "minus",
+        "position": {
+          "x": 208,
+          "y": 96
+        }
+      }
+    ]
+  }
+}

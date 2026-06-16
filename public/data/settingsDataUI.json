@@ -1,0 +1,16 @@
+{
+  "baseEntities": {
+    "ANY_ENTITY": {
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+	}
+  },
+  "entities": {},
+  "settings": {
+    "gridEnabled": true,
+    "gridSize": 16
+  },
+  "UI": true
+}
