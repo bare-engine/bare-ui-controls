@@ -2,63 +2,92 @@
   "name": "ui",
   "settingsData": "settingsDataUI",
   "dimensions": {
-    "width": 240,
-    "height": 160
+    "width": 1080,
+    "height": 720
   },
   "entitiesByLayer": {
     "objects": [
       {
         "name": "arrow",
         "position": {
-          "x": 80,
-          "y": 112
+          "x": 320,
+          "y": 512
+        },
+        "scale": {
+          "x": 4.90260205062587,
+          "y": 4.90260205062587
         }
       },
       {
         "name": "arrow",
         "position": {
-          "x": 48,
-          "y": 80
+          "x": 192,
+          "y": 384
+        },
+        "scale": {
+          "x": 4.90260205062587,
+          "y": 4.90260205062587
         },
         "rotation": -90
       },
       {
         "name": "arrow",
         "position": {
-          "x": 16,
-          "y": 112
+          "x": 64,
+          "y": 512
+        },
+        "scale": {
+          "x": 4.90260205062587,
+          "y": 4.90260205062587
         },
         "rotation": 180
       },
       {
         "name": "arrow",
         "position": {
-          "x": 48,
-          "y": 144
+          "x": 192,
+          "y": 640
+        },
+        "scale": {
+          "x": 4.90260205062587,
+          "y": 4.90260205062587
         },
         "rotation": 90
       },
       {
         "name": "plus",
         "position": {
-          "x": 208,
-          "y": 112
+          "x": 960,
+          "y": 448
+        },
+        "scale": {
+          "x": 4.90260205062587,
+          "y": 4.90260205062587
         }
       },
       {
         "name": "minus",
         "position": {
-          "x": 208,
-          "y": 144
+          "x": 960,
+          "y": 640
+        },
+        "scale": {
+          "x": 4.90260205062587,
+          "y": 4.90260205062587
         }
       },
       {
         "name": "text",
         "position": {
-          "x": 128,
-          "y": 32
+          "x": 576,
+          "y": 128
         },
-        "text": "Find Waldo"
+        "scale": {
+          "x": 4.90260205062587,
+          "y": 4.90260205062587
+        },
+        "text": "Find Waldo",
+        "fontSize": 15
       }
     ]
   }

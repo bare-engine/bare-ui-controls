@@ -50,11 +50,11 @@ export class UI extends Scene
                 }
                 if (name == "minus")
                 {
-                    this.zoomChange = -.01;
+                    this.zoomChange = -.03;
                 }
                 if (name == "plus")
                 {
-                    this.zoomChange = .01;
+                    this.zoomChange = .03;
                 }
             });
 

@@ -26,8 +26,8 @@ export class Game extends Scene
 
 StartBare(Game, {antiAlias: false, textureFilter: TextureFilterMode.NEAREST, 
     resolution: {
-        width: 240, 
-        height: 160, 
+        width: 1080, 
+        height: 720, 
         scale: CanvasScale.Fit, 
         position: CanvasPosition.Center
     }, showEditorButton: false
