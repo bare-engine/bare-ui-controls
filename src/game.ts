@@ -1,4 +1,4 @@
-import { CanvasPosition, CanvasScale, Scene, StartBare, TextObject, TextureFilterMode } from 'bare-engine';
+import { CanvasPosition, CanvasScale, Scene, StartBare, TextComponent, TextObject, TextureFilterMode } from 'bare-engine';
 //import { ArcadeObject, ArcadePhysicsController } from 'bare-engine/arcade';
 import settingsDataJson from '../public/data/settingsData.json';
 import { UI } from './ui';
@@ -12,7 +12,8 @@ export class Game extends Scene
 
     async OnAwake()
     {
-        bare.AddClass(TextObject)
+        bare.AddClass(TextObject);
+        
         await bare.scene.Add(UI);
     }
 
@@ -24,11 +25,14 @@ export class Game extends Scene
     }
 }
 
-StartBare(Game, {antiAlias: false, textureFilter: TextureFilterMode.NEAREST, 
+StartBare(Game, {
+    antiAlias: true,
+    textureFilter: TextureFilterMode.LINEAR, 
     resolution: {
         width: 1080, 
         height: 720, 
         scale: CanvasScale.Fit, 
         position: CanvasPosition.Center
-    }, showEditorButton: false
+    },
+    showEditorButton: false
 });
