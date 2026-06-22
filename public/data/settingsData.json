@@ -1,21 +1,4 @@
 {
-  "baseEntities": {
-    "ANY_ENTITY": {
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    }
-  },
-  "entities": {
-    "text": {
-      "texture": "NONE",
-      "baseClass": "TextObject",
-      "text": ""
-    }
-  },
-  "settings": {
-    "gridEnabled": true,
-    "gridSize": 64
-  }
+  "baseEntities": {},
+  "entities": {}
 }
