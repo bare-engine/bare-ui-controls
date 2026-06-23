@@ -2,8 +2,8 @@
   "name": "ui",
   "settingsData": "settingsDataUI",
   "dimensions": {
-    "width": 1080,
-    "height": 720
+    "width": 1088,
+    "height": 704
   },
   "entitiesByLayer": {
     "objects": [
@@ -42,7 +42,7 @@
         "name": "plus",
         "position": {
           "x": 960,
-          "y": 496
+          "y": 512
         }
       },
       {

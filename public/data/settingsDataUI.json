@@ -1,11 +1,12 @@
 {
+  "name": "settingsDataUI",
   "baseEntities": {
     "ANY_ENTITY": {
       "pivot": {
         "x": 0.5,
         "y": 0.5
       }
-	}
+    }
   },
   "entities": {
     "text": {
@@ -16,6 +17,6 @@
   },
   "settings": {
     "gridEnabled": true,
-    "gridSize": 16
+    "gridSize": 64
   }
 }

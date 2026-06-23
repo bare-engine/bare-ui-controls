@@ -1,5 +1,5 @@
 {
-    "name": "Bare Game",
+    "name": "Bare Waldo",
     "version": "1.2.1",
     "scripts": {
         "dev": "vite --config vite.config.cjs --mode development",
