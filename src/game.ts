@@ -29,8 +29,8 @@ StartBare(Game, {
     antiAlias: true,
     textureFilter: TextureFilterMode.LINEAR, 
     resolution: {
-        width: 1080, 
-        height: 720, 
+        width: 1088, 
+        height: 704, 
         scale: CanvasScale.Fit, 
         position: CanvasPosition.Center
     },
