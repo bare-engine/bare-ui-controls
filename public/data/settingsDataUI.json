@@ -1,20 +1,22 @@
 {
   "name": "settingsDataUI",
-  "baseEntities": {
-    "ANY_ENTITY": {
+   "baseEntities": [
+    {
+      "name": "ANY",
+      "texture": "NAME",
       "pivot": {
         "x": 0.5,
         "y": 0.5
       }
     }
-  },
-  "entities": {
-    "text": {
+  ],
+  "entities": [
+    {
+      "name": "text",
       "texture": "NONE",
-      "baseClass": "TextObject",
-      "text": ""
+      "baseClass": "TextObject"
     }
-  },
+  ],
   "settings": {
     "gridEnabled": true,
     "gridSize": 64

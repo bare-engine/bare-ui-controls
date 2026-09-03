@@ -53,7 +53,7 @@
         }
       },
       {
-        "name": "text",
+        "entity": "text",
         "position": {
           "x": 576,
           "y": 128
