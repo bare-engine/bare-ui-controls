@@ -1,6 +1,6 @@
 {
   "name": "settingsDataUI",
-   "baseEntities": [
+  "basePrefabs": [
     {
       "name": "ANY",
       "texture": "NAME",
@@ -10,7 +10,7 @@
       }
     }
   ],
-  "entities": [
+  "prefabs": [
     {
       "name": "text",
       "texture": "NONE",

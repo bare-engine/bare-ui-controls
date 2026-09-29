@@ -53,7 +53,7 @@
         }
       },
       {
-        "entity": "text",
+        "extends": "text",
         "position": {
           "x": 576,
           "y": 128
