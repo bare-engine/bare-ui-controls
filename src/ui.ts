@@ -12,12 +12,12 @@ export class UI extends Scene
         super(settingsDataUIJson);
     }
 
-    async OnAwake()
+    override async OnAwake()
     {
         await this.LoadLevel('ui');
     }
 
-    OnPostLoadLevel(): void
+    override OnPostLoadLevel(): void
     {
         var objs = bare.object.GetAll();
         for (let obj of objs)
@@ -65,7 +65,7 @@ export class UI extends Scene
         }
     }
 
-    OnUpdate(deltaTime: number): void
+    override OnUpdate(deltaTime: number): void
     {
         var gameCamera = bare.scene.Get(Game).camera;
 

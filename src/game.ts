@@ -10,14 +10,14 @@ export class Game extends Scene
         super(settingsDataJson);
     }
 
-    async OnAwake()
+    override async OnAwake()
     {
         bare.AddClass(TextObject);
         
         await bare.scene.Add(UI);
     }
 
-    async OnStart()
+    override async OnStart()
     {
         var waldoObj = this.AddGameObject("waldo");
         bare.camera.SetBounds(waldoObj.GetBounds());
