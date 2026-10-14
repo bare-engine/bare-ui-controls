@@ -9,7 +9,7 @@ export class UI extends Scene
 
     constructor()
     {
-        super(settingsDataUIJson);
+        super({ settingsData: settingsDataUIJson });
     }
 
     override async OnAwake()
