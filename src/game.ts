@@ -1,5 +1,4 @@
-import { CanvasPosition, CanvasScale, Scene, StartBare, TextComponent, TextObject, TextureFilterMode } from 'bare-engine';
-//import { ArcadeObject, ArcadePhysicsController } from 'bare-engine/arcade';
+import { CanvasPosition, CanvasScale, Scene, StartBare, TextObject, TextureFilterMode } from 'bare-engine';
 import settingsDataJson from '../public/data/settingsData.json';
 import { UI } from './ui';
 
@@ -19,8 +18,8 @@ export class Game extends Scene
 
     override async OnStart()
     {
-        var waldoObj = this.AddGameObject("waldo");
-        bare.camera.SetBounds(waldoObj.GetBounds());
+        var paintingObj = this.AddGameObject("pieterBruegel");
+        bare.camera.SetBounds(paintingObj.GetBounds());
         bare.camera.SetZoom(.01);
     }
 }

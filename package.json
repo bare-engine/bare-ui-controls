@@ -1,5 +1,5 @@
 {
-    "name": "Bare Waldo",
+    "name": "BareUIControls",
     "version": "1.2.1",
     "scripts": {
         "dev": "vite --config vite.config.cjs --mode development",
@@ -22,7 +22,7 @@
         "bare-engine": "^1.0.0"
     },
     "bareEngine": {
-        "gameId": "bareWaldo"
+        "gameId": "BareUIControls"
     },
     "allowScripts": {
         "esbuild": true,

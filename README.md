@@ -1,3 +1,3 @@
-# bare-waldo
+# bare-ui-controls
 
-**[▶ Play it in your browser](https://bare-engine.github.io/bare-waldo/)**
+**[▶ Play it in your browser](https://bare-engine.github.io/bare-ui-controls/)**

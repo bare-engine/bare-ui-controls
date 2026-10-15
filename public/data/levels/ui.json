@@ -58,8 +58,17 @@
           "x": 576,
           "y": 128
         },
-        "text": "Where's Waldo",
-        "fontSize": 95
+        "text": "Pan & Zoom",
+        "fontSize": 95,
+        "fill": "#ffffffff",
+        "pivot": {
+          "x": 265.7024709621943,
+          "y": 36.776858344689416
+        },
+        "innerPivot": {
+          "x": 265.7024709621943,
+          "y": 36.776858344689416
+        }
       }
     ]
   }

@@ -1,4 +1,4 @@
-# builds the game and publishes it to https://bare-engine.github.io/bare-waldo/
+# builds the game and publishes it to https://bare-engine.github.io/bare-ui-controls/
 name: Pages
 
 on:
